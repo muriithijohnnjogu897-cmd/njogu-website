@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kisii university Students portal</title>
+        <style>
+            p {
+                font-family: arial;
+            }
+            .content-div {
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                height: 1000px;
+            }
+            .image-div {
+               
+            }
+            .image {
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+             
+                
+            }
+            .div2 {
+                text-align: center;
+
+                        }
+             .kisii-logo {
+                text-align: center;
+                margin: 0px;
+                
+                        }
+                        .login-table {
+                            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.45);
+                            margin-left: 25%;
+                            margin-right: 25%;
+                            width: 60%;
+                            text-align: left;
+                            padding-left: 50px;
+                            padding-bottom: 100px;
+                            padding-top: 30px;
+                            
+                        }
+                        @media (max-width: 750px) {
+                            .content-div {
+                                grid-template-columns: 1fr ;
+                            }
+                        }
+                        .p1 {
+                            font-size: 40px;
+                            color: rgb(3, 135, 179);
+                            font-weight: bold;
+                            margin: 0;
+                        }
+                        .p2 {
+                            font-weight: bold;
+                            font-width: 50px;
+                        }
+                        .username-input, .password-input {
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            padding-right: 100px;
+                            border-style: solid;
+                            border-width: 1px;
+                            border-color: rgb(198, 197, 197);
+                        }
+                        .username-input, .password-input::placeholder {
+                            padding-left: 15px;
+                        }
+                        .checkbox {
+                            margin-top: 15px;
+                        }
+                        .p3 {
+                            text-align: center;
+                            
+                        }
+                        .sign-in {
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            padding-left: 130px;
+                            padding-right: 150px;
+                            border: none;
+                            background-color:  rgb(8, 102, 133);
+                            color: white;
+                            font-weight: bold;
+                            cursor: pointer;
+                            transition: 1s;
+                        }
+                        .sign-in:hover {
+                            background-color:  rgb(4, 74, 95);
+
+                        }
+                    
+        </style>
+    </head>
+    <body>
+        <div class="content-div">
+            <div class="image-div"> <img class="image" src="kisiistudentsportal images/89f35a1f-c263-4388-8d39-0b7579014a5c (1).jpg"> </div>
+            <div class="div2"> <img class="kisii-logo" src="kisiistudentsportal images/d9a4a824-8fd1-4b92-a281-3e2934307958.png"> 
+                  <p class="p1">Hi, welcome back</p>
+                  <p class="p2">Please fill in your details to log in</p>
+                  <div class="login-table">
+                    <p style="font-weight: bold;">Username</p>
+                    <input class="username-input" type="text" placeholder="Student No/ Employee No">
+                    <p style="font-weight: bold;">Password</p>
+                    <input class="password-input" type="text" placeholder="Enter your password">
+                    <div class="checkbox"><input type="checkbox"><span style="font-weight: bold; font-family: arial;">Remember me </span> <span style="margin-left: 30px; color: rgb(3, 135, 179); font-weight: bold; font-family: arial;">Forgot password?</span> </div>
+                    <p class="p3"><button class="sign-in" >SIGN IN</button></p>
+                    
+                  </div>
+                  <p style="font-weight: bold;">Don't have an account? <span style="color:  rgb(3, 135, 179);">Sign Up</span> </p>
+            </div>
+        </div>
+
+    </body>
+
+</html>

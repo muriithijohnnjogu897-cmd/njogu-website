@@ -1,0 +1,160 @@
+                .header {
+                    height: 55px;
+                    display: flex;
+                    flex-direction: row;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0px;
+                    background-color: white;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    border-bottom-color: rgb(224, 222, 222);
+                    z-index: 100;
+                    justify-content: space-between;
+
+                                }
+                                .left-section {
+                                    align-items: center;
+                                    display: flex;
+                                }
+                                .middle-section {
+                                    flex: 1;
+                                    margin-left: 70px;
+                                    margin-right: 35px;
+                                    max-width: 500px;
+                                    justify-content: space-between;
+                                    display: flex;
+                                    align-items: center;
+                                    
+                                }
+                                .search-bar::placeholder {
+                                    font-family: Roboto, Arial;
+                                    font-size: 16px;
+                                    padding-left: 12px;
+                                }
+                                .search-bar {
+                                    flex: 1;
+                                    height: 37px;
+                                    font-size: 16px;
+                                    
+                                    border-radius: 2px;
+                                    border: 1px solid rgb(197, 194, 194);
+                                    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+                                    width: 0px;
+                                } /* this is a CSS comment*/
+                                .search-button{
+                                    height: 40px;
+                                    width: 66px;
+                                    background-color: rgb(240, 240, 240);
+                                    border-width: 1px;
+                                    border-style: solid;
+                                    border-color: rgb(197, 194, 194);
+                                    margin-left: -1px;
+                                    margin-right: 10px;
+                                    position: relative;
+                                }
+                                .search-icon {
+                                    height: 25px;
+                                    margin-top: 4px;
+                                }
+                                .voice-search-icon {
+                                    height: 24px;
+                                    margin-top: 4px;
+                                }
+                 
+
+                        
+
+                                .right-section {
+                                    width: 180px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    margin-right: 20px;
+                                    flex-shrink: 0;
+                                }
+                                .hambuger-menu {
+                                    height: 24px;
+                                    margin-left: 24px;
+                                    margin-right: 20px;
+
+                                }
+                                .youtube-logo {
+                                    height: 20px;
+                                    
+                                }
+                                .upload-icon {
+                                    height: 24px;
+                                }
+                                .youtube-apps-icon {
+                                    height: 24px;
+                                }
+                                .notifications-icon {
+                                    height: 24px;
+                                }
+
+                    
+                                .current-user-picture {
+                                    height: 32px;
+                                }
+                                
+                                .notification-icon-container {
+                                    position: relative;
+                                }
+                            
+                                .notifications-count {
+                                    position: absolute;
+                                    left: 12px;
+                                    font-size: 12px;
+                                    top: -2px;
+                                    color: white;
+                                    background-color: rgb(221, 15, 15);
+                                    padding-left: 4px;
+                                    padding-right: 4px;
+                                    padding-top: 0px;
+                                    padding-bottom: 0px;
+                                    border-radius: 10px;
+                                    
+                                }
+                             
+
+                                .search-button .searchsub {
+                                    position: absolute;
+                                    background-color: rgb(230, 228, 228);
+                                    color: white;
+                                    padding-top: 4px;
+                                    padding-bottom: 4px;
+                                    padding-left: 8px;
+                                    padding-right: 8px;
+                                    border-radius: 2px;
+                                    font-size: 12px;
+                                    top: 45px;
+                                    opacity: 0;
+                                    transition: 0.15s;
+                                    pointer-events: none;
+                                }
+                                .search-button:hover .searchsub {
+                                    opacity: 1;
+                                }
+                                .uploadimg {
+                                    position: relative;
+                                    
+                                }
+                                .createsub {
+                                    position: absolute;
+                                    top: 45px;
+                                    background-color: rgb(183, 179, 179);
+                                    padding-bottom: 2px;
+                                    padding-top: 2px;
+                                    padding-left: 4px;
+                                    padding-right: 4px;
+                                    opacity: 0;
+                                
+                                }
+                                .uploadimg:hover .createsub {
+                                    opacity: 1;
+                                }
+                               
+
+                            
